@@ -9,8 +9,8 @@ Set version in session
 Download and install .rpm
 ------------------------------------------
 
-    wget https://bintray.com/artifact/download/adriens/deb/pool/main/s/schemacrawler/schemacrawler-deb_${SCHEMACRAWLER_VERSION}_all.deb
-    sudo dpkg -i schemacrawler-deb_${SCHEMACRAWLER_VERSION}_all.deb
+    wget https://bintray.com/artifact/download/adriens/rpm/schemacrawler-${SCHEMACRAWLER_VERSION}-1.noarch.rpm
+    yum --nogpgcheck localinstall schemacrawler-${SCHEMACRAWLER_VERSION}-1.noarch.rpm
 
 Pre-requisite to build the .rpm yourself
 ------------------------------------------
