@@ -12,6 +12,10 @@ Download and install .rpm
     wget https://bintray.com/artifact/download/adriens/rpm/schemacrawler-${SCHEMACRAWLER_VERSION}-1.noarch.rpm
     yum --nogpgcheck localinstall schemacrawler-${SCHEMACRAWLER_VERSION}-1.noarch.rpm
 
+Stay up to date with :
+
+[ ![Download](https://api.bintray.com/packages/adriens/rpm/schemacrawler-rpm/images/download.svg) ](https://bintray.com/adriens/rpm/schemacrawler-rpm/_latestVersion)
+
 Pre-requisite to build the .rpm yourself
 ------------------------------------------
 
