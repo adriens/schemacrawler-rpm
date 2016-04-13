@@ -18,5 +18,7 @@ deploy:
   api_key:
     secure: S83rGw3FFi3rVzdd1Go5R7hYro2XfiJmUANyBLt17GIL9MXy2rwokGdrlFi7xHKPy37GxReZu9y0fnbyFf3XKv2TgDMNWzZrs/A6AkiSsk/W+6735L2pytuJZh2EpWptfyDvky+2ONg0p4HALcEvz7kGU2lXqWcTXeILNJXuIO8=
   file: "${RELEASE_PKG_FILE}"
+  skip_cleanup: true
   on:
+    tags: true
     repo: adriens/schemacrawler-rpm
