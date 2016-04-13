@@ -127,6 +127,11 @@
             <artifactId>schemacrawler-sybaseiq</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>us.fatehi</groupId>
+            <artifactId>schemacrawler-mariadb</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!-- Database Drivers-->
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -435,6 +440,7 @@
                                     <include>us.fatehi:schemacrawler-sqlserver</include>
                                     <include>us.fatehi:schemacrawler-sqlserver</include>
                                     <include>us.fatehi:schemacrawler-sybaseiq</include>
+                                    <include>us.fatehi:schemacrawler-mariadb</include>
                                     
                                     <include>org.postgresql:postgresql</include>
                                     <include>mysql:mysql-connector-java</include>
