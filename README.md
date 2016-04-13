@@ -3,10 +3,6 @@ Schemacrawler RPM package builder
 
 [![Build Status](https://travis-ci.org/adriens/schemacrawler-rpm.svg?branch=master)](https://travis-ci.org/adriens/schemacrawler-rpm) [![Dependency Status](https://www.versioneye.com/user/projects/570db48efcd19a00415b1248/badge.svg?style=flat)](https://www.versioneye.com/user/projects/570db48efcd19a00415b1248)
 
-
-[ ![Download](https://api.bintray.com/packages/adriens/rpm/schemacrawler-rpm/images/download.svg) ](https://bintray.com/adriens/rpm/schemacrawler-rpm/_latestVersion)
-
-
 Set version in session
 ------------------------------------------
 
