@@ -439,6 +439,7 @@
                                     <include>org.postgresql:postgresql</include>
                                     <include>mysql:mysql-connector-java</include>
                                     <include>net.sourceforge.jtds:jtds</include>
+                                    <include>org.mariadb.jdbc:mariadb-java-client</include>
                                     <include>org.apache.derby:derbyclient</include>
                                     <include>org.hsqldb:hsqldb</include>
                                     <include>org.xerial:sqlite-jdbc</include>
