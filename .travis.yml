@@ -10,7 +10,7 @@ before_install:
   -Dfile=lib/sqlite-jdbc-3.7.8.jar -Dpackaging=jar -DgeneratePom=true
 - sudo apt-get update && sudo apt-get install rpm
 before_deploy:
-  - export RELEASE_PKG_FILE=$(target/rpm/schemacrawler/RPMS/noarch/*.rpm)
+  - export RELEASE_PKG_FILE=$(ls target/rpm/schemacrawler/RPMS/noarch/*.rpm)
   - echo "deploying $RELEASE_PKG_FILE to GitHub releases"
   - git fetch --tags
 deploy:
