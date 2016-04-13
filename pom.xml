@@ -79,11 +79,6 @@
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
-            <artifactId>schemacrawler-derby</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-h2</artifactId>
             <version>${project.version}</version>
         </dependency>
