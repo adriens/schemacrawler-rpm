@@ -59,7 +59,7 @@
         
         <!-- Maven reporting plugin versions -->
         <maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
-        <maven-changes-plugin.version>2.11</maven-changes-plugin.version>
+        <maven-changes-plugin.version>2.12</maven-changes-plugin.version>
         <maven-site-plugin.version>3.5</maven-site-plugin.version>
         <maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
         <rpm-maven-plugin.version>2.1.5</rpm-maven-plugin.version>
@@ -544,7 +544,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-changes-plugin</artifactId>
-                <version>2.10</version>
+                <version>${maven-changes-plugin.version}</version>
                 <reportSets>
                     <reportSet>
                         <reports>
