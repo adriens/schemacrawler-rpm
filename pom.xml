@@ -127,7 +127,7 @@
             <artifactId>schemacrawler-sybaseiq</artifactId>
             <version>${project.version}</version>
         </dependency>
-<!-- Database Drivers-->
+        <!-- Database Drivers-->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -159,9 +159,9 @@
             <version>${sqlite.version}</version>
         </dependency>
         <dependency>
-	<groupId>com.h2database</groupId>
-	<artifactId>h2</artifactId>
-	<version>${h2.version}</version>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>${h2.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
@@ -363,7 +363,7 @@
                     <versionProperty>10</versionProperty>
 
                     <mappings>
-                         <mapping>
+                        <mapping>
                             <directory>/opt/schemacrawler-${project.version}</directory>
                             <configuration>true</configuration>
                             <filemode>555</filemode>
