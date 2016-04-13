@@ -11,7 +11,7 @@
     <description>RPM package builder for Schemacrawler.</description>
     <organization>
         <name>Schemacrawler</name>
-        <url>http://schemacrawler.sourceforge.net/</url>
+        <url>http://sualeh.github.io/SchemaCrawler/</url>
     </organization>
     
     <licenses>
