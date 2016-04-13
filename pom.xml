@@ -258,13 +258,6 @@
                                 </artifactItem>
                                 <artifactItem>
                                     <groupId>us.fatehi</groupId>
-                                    <artifactId>schemacrawler-derby</artifactId>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${project.build.directory}/</outputDirectory>
-                                    <!--<destFileName>liquibase.jar</destFileName>-->
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>us.fatehi</groupId>
                                     <artifactId>schemacrawler-h2</artifactId>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}/</outputDirectory>
