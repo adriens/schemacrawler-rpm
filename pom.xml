@@ -64,7 +64,17 @@
         <maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
         <rpm-maven-plugin.version>2.1.5</rpm-maven-plugin.version>
         
+        <!-- Addition lints -->
+        <schemacrawler-additionnallints.version>1.1.6</schemacrawler-additionnallints.version>
+        
     </properties>
+    
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     
     <dependencies>
         <dependency>
@@ -199,6 +209,13 @@
             <artifactId>jt400</artifactId>
             <version>${jt400.version}</version>
         </dependency>
+        
+        <!-- Additional lints dependency -->
+        <dependency>
+	    <groupId>com.github.mbarre</groupId>
+	    <artifactId>schemacrawler-additionnallints</artifactId>
+	    <version>${schemacrawler-additionnallints.version}</version>
+	</dependency>
         
     </dependencies>
 
@@ -421,10 +438,32 @@
                             </sources>
                         </mapping>
                         
+                        <mapping>
+                            <directory>/opt/schemacrawler-${project.version}/additional-lints</directory>
+                            <sources>
+                                <source>
+                                    <location>src/main/resources/ADDITIONAL-LINTS.HOWTO.txt</location>
+                                </source>
+                                <source>
+                                    <location>src/main/resources/ADDITIONAL-LINTS.LICENSE.txt</location>
+                                </source>
+                                <source>
+                                    <location>src/main/resources/ADDITIONAL-LINTS.README.md</location>
+                                </source>
+                                <!-- This jitpack dependency causes the build to fail, see https://github.com/mojohaus/rpm-maven-plugin/issues/48 -->
+                                <!--
+                                <dependency>
+                                    <includes>
+                                        <include>com.github.mbarre:schemacrawler-additionnallints</include>
+                                    </includes>
+                                </dependency>
+                                -->
+                            </sources>
+                        </mapping>
+                    
                         
                         <mapping>
                             <directory>/opt/schemacrawler-${project.version}/lib</directory>
-                            
                             <dependency>
                                 <includes>
                                     <include>us.fatehi:schemacrawler</include>
