@@ -62,7 +62,7 @@
         <maven-changes-plugin.version>2.11</maven-changes-plugin.version>
         <maven-site-plugin.version>3.5</maven-site-plugin.version>
         <maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
-        <rpm-maven-plugin.version>2.1-alpha-1</rpm-maven-plugin.version>
+        <rpm-maven-plugin.version>2.1.5</rpm-maven-plugin.version>
         
     </properties>
     
