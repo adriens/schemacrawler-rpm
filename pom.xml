@@ -70,67 +70,67 @@
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-db2</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-derby</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-h2</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-hsqldb</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-lint</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-mysql</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-offline</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-oracle</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-postgresql</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-sqlite</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-sqlserver</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>us.fatehi</groupId>
             <artifactId>schemacrawler-sybaseiq</artifactId>
-            <version>12.06.03</version>
+            <version>${project.version}</version>
         </dependency>
 <!-- Database Drivers-->
         <dependency>
@@ -167,7 +167,13 @@
 	<groupId>com.h2database</groupId>
 	<artifactId>h2</artifactId>
 	<version>${h2.version}</version>
-</dependency>
+        </dependency>
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>${mariadb.version}</version>
+        </dependency>
+        
 
 
         <!-- Offline feature dependencies -->
