@@ -26,13 +26,13 @@
             <email>Adrien.Sales@gmail.com</email>
             <id>adriens</id>
             <name>Adrien Sales</name>
-            <organization>Sourceforge</organization>
-            <organizationUrl>http://sourceforge.net</organizationUrl>
+            <organization>github</organization>
+            <organizationUrl>https://github.com/adriens</organizationUrl>
             <roles>
                 <role>Developer</role>
             </roles>
             <timezone>+11</timezone>
-            <url>http://sourceforge.net/u/adriens/profile/</url>
+            <url>https://www.linkedin.com/in/adrien-sales-898b7270</url>
         </developer>
     </developers>
     
