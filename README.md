@@ -62,5 +62,3 @@ Contribute
 
 If you are familiar with bash auto-complete files, you are welcome to provide me one 
 to make schemacawler linux experience even better.
-
-
