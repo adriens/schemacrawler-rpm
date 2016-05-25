@@ -67,7 +67,7 @@
         <rpm-maven-plugin.version>2.1.5</rpm-maven-plugin.version>
         
         <!-- Addition lints -->
-        <schemacrawler-additionnallints.version>1.1.7</schemacrawler-additionnallints.version>
+        <schemacrawler-additional-lints.version>1.1.8</schemacrawler-additional-lints.version>
         
     </properties>
     
@@ -215,8 +215,8 @@
         <!-- Additional lints dependency -->
         <dependency>
 	    <groupId>com.github.mbarre</groupId>
-	    <artifactId>schemacrawler-additionnallints</artifactId>
-	    <version>${schemacrawler-additionnallints.version}</version>
+	    <artifactId>schemacrawler-additional-lints</artifactId>
+	    <version>${schemacrawler-additional-lints.version}</version>
 	</dependency>
         
     </dependencies>
@@ -353,7 +353,7 @@
                                 </artifactItem>
                                 <artifactItem>
                                     <groupId>com.github.mbarre</groupId>
-                                    <artifactId>schemacrawler-additionnallints</artifactId>
+                                    <artifactId>schemacrawler-additional-lints</artifactId>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}/</outputDirectory>
                                     <!--<destFileName>liquibase.jar</destFileName>-->
@@ -459,7 +459,7 @@
                                     <location>src/main/resources/ADDITIONAL-LINTS.README.md</location>
                                 </source>
                                 <source>
-                                    <location>target/schemacrawler-additionnallints-${schemacrawler-additionnallints.version}.jar</location>
+                                    <location>target/schemacrawler-additional-lints-${schemacrawler-additional-lints.version}.jar</location>
                                 </source>
                             </sources>
                         </mapping>
