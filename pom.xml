@@ -67,7 +67,7 @@
         <rpm-maven-plugin.version>2.1.5</rpm-maven-plugin.version>
         
         <!-- Addition lints -->
-        <schemacrawler-additional-lints.version>1.1.8</schemacrawler-additional-lints.version>
+        <schemacrawler-additional-lints.version>1.1.9</schemacrawler-additional-lints.version>
         
     </properties>
     
