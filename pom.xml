@@ -429,6 +429,18 @@
                                 </source>
                             </sources>
                         </mapping>
+                        <mapping>
+                            <directory>/opt/schemacrawler-${project.version}/config</directory>
+                            <sources>
+                                <source>
+                                    <location>src/main/resources/schemacrawler.config.properties</location>
+                                </source>
+                                <source>
+                                    <location>src/main/resources/schemacrawler.colormap.properties</location>
+                                </source>
+                            </sources>
+                        </mapping>
+                        
                         
                         <mapping>
                             <directory>/opt/schemacrawler-${project.version}/additional-lints</directory>
