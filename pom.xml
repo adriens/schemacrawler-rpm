@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.schemacrawler-rpm</groupId>
     <artifactId>schemacrawler-rpm</artifactId>
-    <version>14.16.01</version>
+    <version>14.16.02</version>
     <packaging>jar</packaging>
     <url>https://github.com/adriens/schemacrawler-rpm</url>
 
@@ -129,11 +129,7 @@
             <artifactId>schemacrawler-sqlserver</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <dependency>
-            <groupId>us.fatehi</groupId>
-            <artifactId>schemacrawler-sybaseiq</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+
 
         <!-- Database Drivers-->
         <dependency>
@@ -324,13 +320,6 @@
                                 <artifactItem>
                                     <groupId>us.fatehi</groupId>
                                     <artifactId>schemacrawler-sqlserver</artifactId>
-                                    <overWrite>true</overWrite>
-                                    <outputDirectory>${project.build.directory}/</outputDirectory>
-                                    <!--<destFileName>liquibase.jar</destFileName>-->
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>us.fatehi</groupId>
-                                    <artifactId>schemacrawler-sybaseiq</artifactId>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}/</outputDirectory>
                                     <!--<destFileName>liquibase.jar</destFileName>-->
