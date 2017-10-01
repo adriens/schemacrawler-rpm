@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.schemacrawler-rpm</groupId>
     <artifactId>schemacrawler-rpm</artifactId>
-    <version>14.16.03</version>
+    <version>14.16.04</version>
     <packaging>jar</packaging>
     <url>https://github.com/adriens/schemacrawler-rpm</url>
 
@@ -67,7 +67,7 @@
         <rpm-maven-plugin.version>2.1.5</rpm-maven-plugin.version>
         
         <!-- Addition lints -->
-        <schemacrawler-additional-lints.version>1.02.03</schemacrawler-additional-lints.version>
+        <schemacrawler-additional-lints.version>1.03.00</schemacrawler-additional-lints.version>
         
     </properties>
     
