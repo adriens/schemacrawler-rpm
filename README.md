@@ -1,8 +1,7 @@
 Schemacrawler RPM package builder
 ==========================================
 
-[![Build Status](https://travis-ci.org/adriens/schemacrawler-rpm.svg?branch=master)](https://travis-ci.org/adriens/schemacrawler-rpm) [![Dependency Status](https://www.versioneye.com/user/projects/570db48efcd19a00415b1248/badge.svg?style=flat)](https://www.versioneye.com/user/projects/570db48efcd19a00415b1248)
-
+[![Build Status](https://travis-ci.org/adriens/schemacrawler-rpm.svg?branch=master)](https://travis-ci.org/adriens/schemacrawler-rpm) [![Dependency Status](https://beta.gemnasium.com/badges/github.com/adriens/schemacrawler-rpm.svg)](https://beta.gemnasium.com/projects/github.com/adriens/schemacrawler-rpm)
 <a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a>
 
 
