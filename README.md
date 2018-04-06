@@ -8,7 +8,7 @@ Schemacrawler RPM package builder
 Set version in session
 ------------------------------------------
 
-    export SCHEMACRAWLER_VERSION=14.16.01
+    export SCHEMACRAWLER_VERSION=14.20.04
 
 Download and install .rpm
 ------------------------------------------
