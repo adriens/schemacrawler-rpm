@@ -416,6 +416,10 @@
                                 <source>
                                     <location>src/main/resources/README.txt</location>
                                 </source>
+                                <source>
+                                    <location>src/main/resources/install-schemacrawler-shell.sh</location>
+                                </source>
+                                
                             </sources>
                         </mapping>
                         <mapping>
