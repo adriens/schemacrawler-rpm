@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.schemacrawler-rpm</groupId>
     <artifactId>schemacrawler-rpm</artifactId>
-    <version>15.03.02</version>
+    <version>15.03.04</version>
     <packaging>jar</packaging>
     <url>https://github.com/adriens/schemacrawler-rpm</url>
 
