@@ -7,7 +7,7 @@ Schemacrawler RPM package builder
 Set version in session
 ------------------------------------------
 
-    export SCHEMACRAWLER_VERSION=15.05.01
+    export SCHEMACRAWLER_VERSION=15.06.01
 
 Download and install .rpm
 ------------------------------------------
